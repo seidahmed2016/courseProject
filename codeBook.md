@@ -1,4 +1,4 @@
-#Introduction
+**Introduction**
 
 The script run_analysis.R performs the five steps described in the course project.
 
@@ -14,7 +14,7 @@ The script run_analysis.R performs the five steps described in the course projec
 
 (30 subjects * 6 activities = 180 rows). The output file is called averages_data.txt, and uploaded to this repository.
 
-#Variables
+**Variables**
 
 -x_train,y_train,x_test,y_test, subject_train_data and subject_test_data contain the data from the downloaded files.
 

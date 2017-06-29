@@ -119,8 +119,7 @@ $(document).ready(function () {
 </div>
 
 
-<div id="introduction" class="section level1">
-<h1>Introduction</h1>
+<p><strong>Introduction</strong></p>
 <p>The script run_analysis.R performs the five steps described in the course project.</p>
 <p>-All similar data is merged using the rbind() function and address those files with the same number of columns and referring to the same entities.</p>
 <p>-Only those columns with the mean and standard deviation measures are taken from the whole dataset. After taking the columns, they will be given the correct names from measurment_features.txt.</p>
@@ -128,16 +127,13 @@ $(document).ready(function () {
 <p>-On the whole dataset, those columns with vague column names would be corrected.</p>
 <p>-Last but not least, we generate a new dataset with all the average measures for each subject and activity type</p>
 <p>(30 subjects * 6 activities = 180 rows). The output file is called averages_data.txt, and uploaded to this repository.</p>
-</div>
-<div id="variables" class="section level1">
-<h1>Variables</h1>
+<p><strong>Variables</strong></p>
 <p>-x_train,y_train,x_test,y_test, subject_train_data and subject_test_data contain the data from the downloaded files.</p>
 <p>-subject_x_data,subject_y_data and subject_data merge the previous datasets to further analysis.</p>
 <p>-Measurment_features contains the correct names for the subject_x_data dataset, which are applied to the column names stored in mean_and_std_features, a numeric vector used to extract the desired data.</p>
 <p>-A similar approach is taken with activity names through the activities variable.</p>
 <p>-All_data merges subject_x_data,subject_y_data and subject_data in a big dataset.</p>
 <p>-averages_data contains the relevant averages which will be later stored in a second tidy file.</p>
-</div>
 
 
 
